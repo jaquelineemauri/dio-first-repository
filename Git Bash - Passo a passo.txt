@@ -1,0 +1,19 @@
+# Facilitando com Git Bash
+
+##Instalando o Git
+git --version
+git config --global user.name "seu nome"
+git config --global user.email nome@email.com
+git --list
+
+##Trabalhando com o Git Bash
+Após copiar o link do repositório da nuvem (remoto), incluir o arquivo em um diretório de preferência, através do "Git Bash Here".
+git clone + "link do repositório"
+
+Caso inclua alguma informação no diretório criado a partir do repositório clonado, é preciso atualizar o status do repositório:
+
+git status para saber a atualização do repositório
+
+git add (. ou -a) para atualizar o diretório/repositório modificado, na lista do Git
+git commit -m + "comentário" para disponibilizar as alterações com comentários na plataforma da nuvem
+git push origin main para enviar todos os commits e atualizações locais para a nuvem
